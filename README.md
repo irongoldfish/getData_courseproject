@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ReadMe
 ========================================================
 
@@ -15,9 +14,3 @@ x,y,and ID data frames are then combined by column into a single data frame. Thi
 A second data frame is derived from this one by computing the column means for each participant in each activity. This data frame is called subj.activity.means.
 
 All other intemediate results are deleted from the workspace.
-=======
-getData_courseproject
-=====================
-
-coursera getting and cleaning data project
->>>>>>> a6468b25b2c3731bd56b04b34ca5ff786c6d0cfb
