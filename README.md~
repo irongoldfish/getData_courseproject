@@ -1,9 +1,0 @@
-ReadMe
-========================================================
-
-The script assumes it is being run in a directory containing a folder named "UCI HAR DATAset", as created by unzipping https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-
-It extracts the contents of "X-test.txt and "X-train.txt" using read.table (this can take some time). It then concatenates them with rbind, and labels the cols of the resulting dataframe with the feature names as listed in "features.txt". This data frame is named xall.
-
-xall is subset, retaining only columns with names containing 'mean' or 'std'.
-
